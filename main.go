@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
@@ -26,7 +27,7 @@ func main() {
 	// This is where the compiled frontend code will be.
 	app.Static("/", "./public")
 
-	// Start the server on port 9020.
-	//TODO: Set up a proper configuration for the port, with environment variables.
-	log.Fatal(app.Listen(":9020"))
+	// Get the port from the environment variable "SERVER_PORT".
+	port := os.Getenv("SERVER_PORT")
+	log.Fatal(app.Listen(port))
 }

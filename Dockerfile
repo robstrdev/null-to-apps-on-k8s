@@ -21,6 +21,7 @@ USER nonroot
 COPY --from=build /app/webapp ./
 COPY public/index.html public/index.html
 
+ENV SERVER_PORT=":9020"
 EXPOSE 9020
 
 ENTRYPOINT [ "/home/nonroot/webapp" ]
