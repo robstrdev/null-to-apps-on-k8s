@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.0](https://github.com/robstrdev/null-to-apps-on-k8s/compare/v1.1.0...v1.2.0) (2024-09-28)
+
+
+### Features
+
+* made server port depend on env variables ([32f66a8](https://github.com/robstrdev/null-to-apps-on-k8s/commit/32f66a8e9c8e0971f2492b9798aa65249d05421d))
+
+
+### Miscellaneous Chores
+
+* release 1.2.0 ([e3a9f84](https://github.com/robstrdev/null-to-apps-on-k8s/commit/e3a9f840b7d80d9b8ef61f645954b4ae5608d222))
+* release 1.2.0 ([4c88a86](https://github.com/robstrdev/null-to-apps-on-k8s/commit/4c88a86ae89f836a84ed6c9b1cf24010fe63a666))
+* release 1.2.0 ([1897acd](https://github.com/robstrdev/null-to-apps-on-k8s/commit/1897acde278085d98d8514538a6568020faea3da))
+* release 1.3.0 ([b4d5b1b](https://github.com/robstrdev/null-to-apps-on-k8s/commit/b4d5b1b64ae3fa8b7f1b65af2738eee61cad72fc))
+
 ## [1.1.0](https://github.com/robstrdev/null-to-apps-on-k8s/compare/v1.0.0...v1.1.0) (2024-09-28)
 
 
