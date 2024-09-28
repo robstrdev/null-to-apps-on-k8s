@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/robstrdev/null-to-apps-on-k8s/compare/v1.0.0...v1.1.0) (2024-09-28)
+
+
+### Features
+
+* added endpoint for k8s health probes ([753969e](https://github.com/robstrdev/null-to-apps-on-k8s/commit/753969eeac936fddf459f23c5fa4ae3892c76821))
+
 ## 1.0.0 (2024-09-28)
 
 
