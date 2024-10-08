@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/robstrdev/null-to-apps-on-k8s/compare/v1.2.0...v1.3.0) (2024-10-08)
+
+
+### Features
+
+* **workload:** simple demo code, for reference ([d0eb005](https://github.com/robstrdev/null-to-apps-on-k8s/commit/d0eb0052f0266a973d0ba52b6272bc6d65eb2dcd))
+
 ## [1.2.0](https://github.com/robstrdev/null-to-apps-on-k8s/compare/v1.1.0...v1.2.0) (2024-09-28)
 
 
