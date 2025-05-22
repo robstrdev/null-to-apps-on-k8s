@@ -52,3 +52,6 @@ metadata:
   name: prometheus
 spec:
   serviceAccountName: prometheus
+  serviceMonitorSelector:
+    matchLabels:
+      environment: dev

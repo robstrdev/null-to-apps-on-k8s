@@ -1,0 +1,13 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: platform-servicemonitor
+  labels:
+    environment: dev
+spec:
+  selector:
+    matchLabels:
+      environment: dev
+      managedBy: platform-team
+  endpoints:
+  - port: web
