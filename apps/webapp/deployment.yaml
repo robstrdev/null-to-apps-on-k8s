@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: demo
-  annotations:
-    instrumentation.opentelemetry.io/inject-go: "true"
 spec:
   selector:
     matchLabels:
@@ -12,6 +10,8 @@ spec:
     metadata:
       labels:
         app: demo
+      annotations:
+        instrumentation.opentelemetry.io/inject-go: "true"
     spec:
       containers:
       - name: demo
