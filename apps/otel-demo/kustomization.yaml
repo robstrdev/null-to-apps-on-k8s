@@ -3,4 +3,4 @@ kind: Kustomization
 namespace: otel-demo
 resources:
 - namespace.yml
-- https://raw.githubusercontent.com/open-telemetry/opentelemetry-demo/main/kubernetes/opentelemetry-demo.yaml
+- https://raw.githubusercontent.com/open-telemetry/opentelemetry-demo/main/kubernetes/opentelemetry-demo.yaml@main
