@@ -13,6 +13,7 @@ spec:
       annotations:
         instrumentation.opentelemetry.io/inject-go: "true"
     spec:
+      shareProcessNamespace: true
       containers:
       - name: demo
         livenessProbe:
