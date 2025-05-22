@@ -10,9 +10,6 @@ spec:
     metadata:
       labels:
         app: demo
-      annotations:
-        instrumentation.opentelemetry.io/inject-go: "true"
-        instrumentation.opentelemetry.io/otel-go-auto-target-exe: "/home/nonroot/webapp"
     spec:
       shareProcessNamespace: true
       containers:
