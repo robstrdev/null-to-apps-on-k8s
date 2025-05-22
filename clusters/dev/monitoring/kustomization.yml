@@ -4,4 +4,4 @@ commonLabels:
   managedBy: "platform-team"
   environment: "dev"
 bases:
-  - ../../../apps/prometheus-operator/
+  - ../../../apps/monitoring/
