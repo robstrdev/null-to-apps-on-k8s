@@ -5,9 +5,12 @@ metadata:
   labels:
     environment: dev
 spec:
+  endpoints:
+  - interval: 30s
+    path: /metrics
+    targetPort: 9090
+  namespaceSelector:
+    any: true
   selector:
     matchLabels:
-      environment: dev
-      managedBy: platform-team
-  endpoints:
-  - port: web
+      prometheus.io/scrape: "true"
