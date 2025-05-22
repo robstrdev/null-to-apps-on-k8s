@@ -36,7 +36,7 @@ metadata:
   name: webapp-instrumentation
 spec:
   exporter:
-    endpoint: http://webapp-collector:4318
+    endpoint: http://dev-webapp-collector:4318
   propagators:
     - tracecontext
     - baggage
